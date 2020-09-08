@@ -1,0 +1,76 @@
+.game {
+  height: 150vh;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.button {
+  appearance: none;
+  border: none;
+  font-size: 1em;
+  font-weight: 700;
+  outline: none;
+  padding: 12px 20px;
+}
+
+.button.action {
+  color: var(--white);
+  width: 14.2vw;
+}
+
+.opponent .button.action {
+  background-color: var(--opponent-bg-color);
+}
+
+.you .button.action {
+  background-color: var(--you-bg-color);
+}
+
+.status-bar {
+  display: flex;
+  height: 12vh;
+}
+
+.battle-line {
+  height: 38vh;
+}
+
+.workshop {
+  height: 50vh;
+}
+
+.status-center {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  width: 40%;
+}
+
+.actions-left,
+.actions-right {
+  width: 30%;
+}
+
+.opponent {
+  height: 50vh;
+}
+
+.opponent .status-bar {
+  background-color: var(--opponent-bg-color);
+}
+
+.you {
+  height: 100vh;
+}
+
+.you .status-bar {
+  align-items: center;
+  background-color: var(--you-bg-color);
+  display: flex;
+}
+
+.you .actions-right {
+  display: flex;
+  justify-content: flex-end;
+}
