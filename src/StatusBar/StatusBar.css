@@ -1,0 +1,32 @@
+.status-bar {
+  display: flex;
+  height: 12vh;
+}
+
+.status-center {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  width: 40%;
+}
+
+.actions-left,
+.actions-right {
+  width: 30%;
+}
+
+.you .status-bar {
+  align-items: center;
+  background-color: var(--you-bg-color);
+  display: flex;
+}
+
+.you .actions-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.opponent .status-bar {
+  background-color: var(--opponent-bg-color);
+}
