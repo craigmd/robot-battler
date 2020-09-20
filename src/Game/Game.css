@@ -1,43 +1,10 @@
 .game {
-  height: 150vh;
-  overflow: hidden;
+  height: 100vh;
+  position: relative;
   width: 100vw;
 }
 
-.button {
-  appearance: none;
-  border: none;
-  font-size: 1em;
-  font-weight: 700;
-  outline: none;
-  padding: 12px 20px;
-}
-
-.button.action {
-  color: var(--white);
-  width: 14.2vw;
-}
-
-.opponent .button.action {
-  background-color: var(--opponent-bg-color);
-}
-
-.you .button.action {
-  background-color: var(--you-bg-color);
-}
-
-.battle-line {
-  height: 38vh;
-}
-
-.workshop {
-  height: 50vh;
-}
-
-.opponent {
-  height: 50vh;
-}
-
-.you {
-  height: 100vh;
+.inner {
+  margin: 0 auto;
+  width: 640px;
 }

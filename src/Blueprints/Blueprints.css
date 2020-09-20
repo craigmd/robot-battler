@@ -1,0 +1,27 @@
+.blueprints {
+  background-color: #dedede;
+  height: 100vh;
+  left: -224px;
+  position: absolute;
+  top: 0;
+  transition: left 0.3s ease-out;
+  width: 240px;
+  z-index: 2;
+}
+
+.blueprints.expanded {
+  left: 0;
+  transition: left 0.3s ease-in;
+}
+
+.blueprints-expander {
+  background-color: #4466de;
+  color: #fff;
+  padding: 4px 8px;
+  position: absolute;
+  right: -94px;
+  text-transform: uppercase;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  width: 50vh;
+}

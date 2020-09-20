@@ -1,0 +1,8 @@
+.deck-holster {
+  background-color: #dedede;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 56px;
+}

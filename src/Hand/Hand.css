@@ -1,0 +1,8 @@
+.hand {
+  border: 1px solid #f24;
+  height: 20vh;
+}
+
+.hand.you {
+  top: 80vh;
+}

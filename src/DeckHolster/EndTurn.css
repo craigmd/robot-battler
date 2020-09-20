@@ -1,0 +1,10 @@
+.end-turn-button {
+  background-color: #ffd700;
+  padding: 12px 4px;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 96px;
+  z-index: 2;
+}
